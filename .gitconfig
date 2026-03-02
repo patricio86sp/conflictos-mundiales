@@ -1,0 +1,10 @@
+[user]
+	name = privas
+	email = privas@inti.gob.ar
+[core]
+	editor = \"C:\\Users\\privas\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
